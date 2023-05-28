@@ -55,6 +55,8 @@ input, button {
     margin: 1rem;
     color: var(--light);
     font-size: 1.25rem;
+    max-width: 550px;
+    width: 100%;
 }
 
 #new-task-input::placeholder {
@@ -106,6 +108,10 @@ main {
     padding: 1rem;
     border-radius: 1rem;
     margin-bottom: 1rem;
+}
+
+#tasks .task .content {
+    flex: 1 1 0%;
 }
 
 #tasks .task .content .text {
