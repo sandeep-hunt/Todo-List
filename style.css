@@ -47,7 +47,7 @@ input, button {
     background: none;
 }
 
-#new-task-input {
+#content {
     float: 1 1 0%;
     background-color: var(--darker);
     padding: 1rem;
@@ -59,7 +59,7 @@ input, button {
     width: 100%;
 }
 
-#new-task-input::placeholder {
+#content::placeholder {
     color: var(--gray);
 }
 
