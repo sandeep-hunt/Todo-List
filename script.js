@@ -2,7 +2,7 @@ window.addEventListener('load', () => {
     
     //Declaring Query Selectors
     const form = document.querySelector('#new-task-form');
-    const input = document.querySelector("#new-task-input");
+    const input = document.querySelector("#content");
     const list_el = document.querySelector("#tasks");
 
     //Add task to the list
